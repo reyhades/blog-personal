@@ -1,0 +1,318 @@
+body {
+    background-color: crimson;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+header {
+    text-align: center;
+}
+
+h1 {
+    line-height: 3.5;
+
+}
+
+#menu {
+    padding: 0px;
+    margin: 0px;
+    border: 3px solid rgb(255, 255, 255);
+    height: 80px;
+    background-color: rgb(255 255 255);
+    width: 80%;
+    bottom: 312px;
+    position: relative;
+}
+
+ul, ol{
+    list-style:none;
+}
+
+.nav li a {
+    background-color: #000;
+    color: #ffff;
+    text-decoration:none;
+    padding: 15px 80px;
+    display: block;
+}
+
+.nav li a:hover {
+    background-color: #434343;
+}
+
+.nav > li{
+    float: left;
+}
+
+#img {
+    width: 240px; 
+    height: 230px;
+    left: 990px;
+    position: relative;
+    bottom: 226px;
+    background-color: white;
+    border: 2px solid white;
+}
+
+#img img{
+    width: 200px; 
+    height: 160px;
+    position: relative;
+    box-sizing: border-box;
+    top: 30px;
+}
+
+#name {
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 220px;
+    position: relative;
+}
+
+#portafolio {
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    width: 79%;
+    height: 168px;
+    position: relative;
+}
+
+#prota {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(black, gray);
+    bottom: 250px;
+    position: relative;
+    bottom: 320px;
+
+}
+
+#developer {
+    width: 300px;
+    height: 400px;
+    left: 100px;
+    position: relative;
+    top: 50px;
+}
+
+#copyright {
+    bottom: 300px;
+    position: relative;
+    background-color:  rgb( 182, 149,192);
+}
+
+#venom {
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
+    height: 400px;
+    width: 400px;
+    left: 750px;
+    bottom: 340px;
+}
+
+#venom img{
+    height: 400px; 
+    width: 400px;
+}
+
+#redes {
+    height: 200px;
+    width: 100%;
+    position: relative;
+    bottom: 322px;
+    background-color: rgb(172,23,30);
+
+}
+
+#wasap img {
+    height: 180px;
+    width: 200px;
+    position: relative;
+    left: 200px;
+    top: 10px;
+}
+
+#facebook img {
+    height: 180px;
+    position: relative;
+    left: 500px;
+    bottom:175px ;
+    width: 200px;
+}
+
+#ig img {
+    height: 180px;
+    position: relative;
+    left: 800px;
+    bottom:360px ;
+    width: 200px;
+}
+
+#welcome {
+    /*border: 2px solid purple;*/
+    position: relative;
+    bottom: 290px;
+    background-color: rgb(172,23,30);
+    text-align: center;
+}
+
+#dv {
+    /*border: 2px solid green;*/
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 900px;
+    bottom: 400px;
+    background-color: #434343;
+    text-align: center;
+}
+
+#yo1 {
+ height: 150px;
+ width: 135px;
+ position: relative;
+ left: 610px;
+ bottom: 750px;
+}
+
+#yo2{
+    height: 150px;
+    width: 130px;
+    position: relative;
+    left: 530px;
+    bottom: 770px;
+}
+
+#yo3{
+    height: 150px;
+    width: 125px;
+    position: relative;
+    left: 620px;
+    bottom: 780px;
+}
+
+#yo1 img{
+    height: 100%;
+    width: 100%;
+}
+
+#yo2 img{
+    height: 100%;
+    width: 100%;
+}
+
+#yo3 img{
+    height: 100%;
+    width: 100%;
+}
+
+/*logos de lenguajes de programacion*/
+
+#html {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 620px;
+    bottom: 560px;
+    background-color: white;
+}
+
+#css {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 520px;
+    bottom: 560px;
+    background-color: white;
+}
+
+#phyton {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 820px;
+    bottom: 680px;
+    background-color: white;
+}
+
+#cmasmas {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 720px;
+    bottom: 680px;
+    background-color: white;
+}
+
+#java {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 620px;
+    bottom: 800px;
+    background-color: white;
+}
+
+#java img {
+    height: 100%;
+    width: 100%;
+}
+
+#cmasmas img {
+    height: 100%;
+    width: 100%;
+}
+
+#phyton img {
+    height: 100%;
+    width: 100%;
+}
+
+#html img{
+    height: 100%;
+    width: 100%;
+}
+
+#css img {
+    height: 100%;
+    width: 100%;
+}
+
+/* blog */
+
+#diapositivas {
+    border: 2px solid rgb(62, 95, 138);;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(62, 95, 138);
+    position: relative;
+    bottom: 300px;
+}
+
+#p1 {
+    height: 300px;
+    width: 400px;
+    position: relative;
+    background: linear-gradient(lightblue, cyan);
+    left: 100px;
+    top: 30px;
+    text-align: center;
+
+}
+
+#p2 {
+    height: 300px;
+    width: 400px;
+    position: relative;
+    background: linear-gradient(lightblue, cyan);
+    left: 600px;
+    bottom: 285px;
+    text-align: center;
+}
